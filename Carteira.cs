@@ -1,3 +1,5 @@
+using System;
+
 class Carteira{
   private double _real;
   private double _criptomoeda;
@@ -27,8 +29,9 @@ class Carteira{
   }
 
   public double compraCriptomoeda(double cripto){
-    this._real -= (cripto*25000000);
+    this._real -= (cripto*250.00000); 
     this._criptomoeda += cripto;
+    
     return cripto;
   }
 

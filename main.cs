@@ -15,9 +15,19 @@ class main {
 
     x.WriteLine();
 
-    Criptomoeda BTC = new Criptomoeda("BTC", 250.00000);
-    Criptomoeda ETH = new Criptomoeda("BTC", 160.0000);
-    Criptomoeda ADA = new Criptomoeda("BTC", 14.00);
+    Carteira a = new Carteira();
+
+    a.realizarDeposito(500.00000);
+
+    Console.WriteLine(a.Real);
+
+    a.compraCriptomoeda(1);
+
+    Console.WriteLine(a.Real);
+
+    
+
+    
 
   }
 }
