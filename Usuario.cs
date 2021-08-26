@@ -5,11 +5,9 @@ class Usuario{
 
 
   public Usuario (string nome, string senha){
-    this._username = nome;
+    this._userName = nome;
     this._senha = senha;
-    this._carteira = new Carteira;
+    this._carteira = new Carteira();
   }
-
-}
 
 }
