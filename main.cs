@@ -21,9 +21,14 @@ class main {
 
     Console.WriteLine(a.Real);
 
-    a.compraCriptomoeda(1);
+    a.compraCriptomoeda(2);
 
     Console.WriteLine(a.Real);
+
+    a.vendaCriptomoeda(3);
+
+    Console.WriteLine(a.Real);
+    Console.WriteLine(a.Cripto);
 
     
 
